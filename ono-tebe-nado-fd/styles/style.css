@@ -1,0 +1,33 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 24px;
+}
+
+.menu_header {
+  display: grid;
+  justify-self: center;
+}
+
+.header_menu_links {
+  display: flex;
+  gap: 32px;
+  list-style-type: circle;
+  padding-top: 7px;
+}
+
+.link_list {
+  font-size: 18px;
+  font-weight: 400;
+  text-underline-offset: 4px;
+}
+
+.main_link_marker {
+  list-style-type: none;
+}
+
+.link_main {
+text-decoration: none;
+}
+
